@@ -1,33 +1,93 @@
 * {
   font-family: sans-serif;
-  margin-left: 5px;
+  margin: auto;
 }
 
-h1 {
-  color: orchid;
-}
+h1 { color: orchid; margin: 0 0 20px 0; }
 
-form > label {
-  margin-left: -100px;
-}
-
-input,
-button {
+input {
   font-size: 20px;
-  padding: 10px;
   border-radius: 5px;
 }
+
 input {
   display: block;
   margin-bottom: 20px;
+  padding: 15px;
 }
+
 button {
   border: 1px solid gray;
   background: whitesmoke;
   margin-right: 5px;
+  font-size: 25px;
+  border-radius: 5px;
 }
-button:nth-last-child(2),
+
 button:nth-last-child(1) {
   background: palevioletred;
   color: white;
 }
+
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.col {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.padding-30 {
+  padding: 30px;
+}
+
+.w-third {
+  width: 33%;
+}
+
+.w-fourth {
+  width: 25%;
+}
+
+.w-three-fourth {
+  width: 75%;
+}
+
+.w-60 {
+  width: 60px;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-max-third {
+  max-width: 33%;
+}
+
+.h-30 {
+  height: 30px;
+}
+
+.h-60 {
+  height: 60px;
+}
+
+.h-80 {
+  height: 80px;
+}
+
+
